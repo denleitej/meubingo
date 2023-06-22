@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+     <h1>Bingo</h1>
+    </header>
+
+    <main>
+
+    <section id="area_cartelas">
+        <div id="header_cartelas">
+            <h3>Cartelas</h3>
+
+            <div id="botoes_cartelas">
+            <button onclick="desenharCartela()">Gerar Cartela</button>
+            <button onclick="apagarCartelas()">Reiniciar Jogo</button>  
+            </div>
+           
+        </div>
+
+        <div id="body_cartelas">
+        
+        </div>
+
+    </section>
+
+    <section id="area_numeros">
+        <div id="header_numeros">
+            <h3>Números Sorteados</h3>
+
+            <div id="botoes_jogo">
+                <button onclick="jogarBingo()">Iniciar Jogo</button>
+            </div>
+           
+        </div>
+
+        <div id="body_numeros">
+            <section id="sorteios">
+            </section>
+
+            <section id="mensagem">
+            </section>
+
+        </div>
+
+    </section>
+
+    </main>
+
+    <footer>
+
+     <h4>Developed by Dennys</h4>
+
+    </footer>
+
+   <script src="index.js"></script>
+</body>
+</html> 
